@@ -249,4 +249,4 @@ module.exports = React.createClass({
   }
 })
 
-function loadStyles () { require('./style.css') }
+function loadStyles () { require('../style.css') }
