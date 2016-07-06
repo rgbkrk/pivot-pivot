@@ -1,7 +1,7 @@
 {
   "name": "pivot-pivot",
   "description": "Pivot-Pivot is a data-grid component with pivot-table-like functionality for data display, filtering, and exploration.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kyle Kelley <rgbkrk@gmail.com>",
   "browser": "index.js",
   "browserify": {
