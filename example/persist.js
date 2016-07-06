@@ -1,6 +1,6 @@
 var React = require('react')
 var Emitter = require('wildemitter')
-var ReactPivot = require('../load')
+var ReactPivot = require('../lib/load')
 
 var rows = require('./data.json')
 

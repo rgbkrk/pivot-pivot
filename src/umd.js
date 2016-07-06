@@ -1,4 +1,4 @@
-var LoadReactPivot = require('../load')
+var LoadReactPivot = require('./load')
 
 var root = window || this
 

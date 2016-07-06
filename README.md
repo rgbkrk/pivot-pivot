@@ -13,12 +13,12 @@ Forked from [react-pivot](https://github.com/davidguttman/react-pivot)
 <strong> Default (Browserify/webpack): </strong>
 
 ```
-npm i -S react-pivot
+npm i -S pivot-pivot
 ```
 
 ```js
 var React = require('react')
-var ReactPivot = require('react-pivot')
+var ReactPivot = require('pivot-pivot')
 
 React.render(
   <ReactPivot rows={rows}
@@ -32,10 +32,10 @@ React.render(
 
 <strong> Classic (no React or Browserify): </strong>
 
-Download [react-pivot-standalone-1.16.0.min.js](https://raw.githubusercontent.com/rgbkrk/pivot-pivot/master/dist/react-pivot-standalone-1.16.0.min.js)
+Download [pivot-pivot-standalone-1.16.0.min.js](https://raw.githubusercontent.com/rgbkrk/pivot-pivot/master/dist/pivot-pivot-standalone-1.16.0.min.js)
 
 ```html
-<script src='react-pivot-standalone-1.16.0.min.js'></script>
+<script src='pivot-pivot-standalone-1.16.0.min.js'></script>
 <script>
   ReactPivot(document.body, {
     rows: rows,
@@ -49,7 +49,7 @@ Download [react-pivot-standalone-1.16.0.min.js](https://raw.githubusercontent.co
 <strong> Custom (Browserify, no React): </strong>
 
 ```js
-var ReactPivot = require('react-pivot/load')
+var ReactPivot = require('pivot-pivot/load')
 
 ReactPivot(document.body, {
   rows: rows,
@@ -65,7 +65,7 @@ ReactPivot(document.body, {
 
 ```js
 var React = require('react')
-var ReactPivot = require('react-pivot')
+var ReactPivot = require('pivot-pivot')
 
 React.render(
   <ReactPivot rows={rows}
@@ -131,7 +131,7 @@ React.render(
 )
 ```
 
-See it all together in [example/basic.js](https://github.com/rgbkrk/pivot-pivotguttman/react-pivot/blob/master/example/basic.js)
+See it all together in [example/basic.js](https://github.com/rgbkrk/pivot-pivotguttman/pivot-pivot/blob/master/example/basic.js)
 
 
 ### TODO ###

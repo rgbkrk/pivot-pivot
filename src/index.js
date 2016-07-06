@@ -7,12 +7,12 @@ var React = require('react')
 var DataFrame = require('dataframe')
 var Emitter = require('wildemitter')
 
-var partial = require('./src/partial')
-var download = require('./src/download')
-var getValue = require('./src/get-value')
-var PivotTable = require('./src/pivot-table.js')
-var Dimensions = require('./src/dimensions.js')
-var ColumnControl = require('./src/column-control.js')
+var partial = require('./partial')
+var download = require('./download')
+var getValue = require('./get-value')
+var PivotTable = require('./pivot-table.js')
+var Dimensions = require('./dimensions.js')
+var ColumnControl = require('./column-control.js')
 
 module.exports = React.createClass({
   displayName: 'ReactPivot',
