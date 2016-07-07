@@ -58,6 +58,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib",
+    "prepublish": "npm run build",
     "preexample": "npm run build",
     "example": "budo example/demo.js --live",
     "example-basic": "budo example/basic.js",
